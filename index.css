@@ -1,0 +1,20 @@
+#head
+{
+    font-family: Sans-serif;
+    font-size: 10px solid black;
+    position: absolute;
+    right: 65%;
+}
+body{
+    background-color: white;
+}
+#box{
+    position: absolute;
+    top: 10%;
+    right: 50%;
+}
+#result
+{
+    position: absolute;
+    top: 35%;
+}

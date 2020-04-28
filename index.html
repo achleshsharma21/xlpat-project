@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Engine</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="head">SEARCH ENGINE</h1>
+            <div id="box">
+                    <form id="form">
+            <div class="form-group">
+                <input type="text" id="search" class="form-control" placeholder="SEARCH HERE" style=" width: 40%;border: 1px solid black; border-radius: 30px; padding: 15px 32px;">
+                <br>
+                <h4>OR</h4>
+                <label for="img">Select image:</label>
+  <input type="file" id="img" name="img" accept="image/*">
+  <br>
+  <br>
+                
+  <button style="border: none; background-color: dodgerblue;padding: 15px 32px;text-align: center;">
+ Upload Image    
+</button>
+            </div>
+            <br>
+            <div class="form-group">
+                <button  class="btn" style="border: none; background-color: #4CAF50; padding: 15px 32px;width:30%;text-align: center;">Search</button>
+            </div>
+        </form>
+    </div>
+        <div id="result"></div>
+    </div>
+    </body>
+    <script src="index.js"></script>
+</html>
